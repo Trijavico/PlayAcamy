@@ -140,7 +140,3 @@ function validate_field(field){
         return true
     }
 }
-
-
-const nombre = "Juan";
-window.location.href = "https://www.ejemplo.com/?nombre=" + nombre;
