@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <link rel="stylesheet" href="./matematica.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+
+  <main class="map_bg" data-display="show">
+
+    <section class="map_layout">
+        <input id="n1" name="pathway" type="radio" checked>
+        <input id="n2" name="pathway" type="radio" value="first_level">
+        <input id="n3" name="pathway" type="radio" value="second_level">
+        <input id="n4" name="pathway" type="radio" value="third_level">
+
+        <aside class="clouds_pack">
+            <div class="cloud large"></div>
+            <div class="cloud medium"></div>
+            <div class="cloud short"></div>
+            <div class="cloud large"></div>
+        </aside>
+
+        <aside class="clouds_pack second">
+            <div class="cloud medium"></div>
+            <div class="cloud short"></div>
+            <div class="cloud large"></div>
+        </aside>
+
+
+        <div class="mountain">
+            <img class="big" src="./images/yellow.png" alt="">
+            <img class="small right" src="./images/blue.png" alt="">
+        </div>
+
+        <div class="mountain">
+            <img class="big " src="./images/blue.png" alt="">
+            <img class="small right" src="./images/yellow.png" alt="">
+            <img class="mid left" src="./images/purple.png" alt="">
+        </div>
+
+
+        <div class="mountain">
+            <img class="mid" src="./images/green.png" alt="">
+            <img class="small right" src="./images/blue.png" alt="">
+            <img class="small left" src="./images/purple.png" alt="">
+        </div>
+
+
+        <div class="mountain">
+            <img class="big" src="./images/green.png" alt="">
+            <img class="mid right" src="./images/purple.png" alt="">
+        </div>
+
+
+
+        <section class="path_container">
+
+
+            <label for="n1"></label>
+            <label for="n2"></label>
+            <label for="n3"></label>
+            <label class="last" for="n4"></label>
+            <img class="pj" src="./images/paper_mario.png" alt="">
+
+            <div class="titles">
+                <h2 class="first">Inicio</h2>
+                <h2>Nivel 1</h2>
+                <h2>Nivel 2</h2>
+                <h2>Nivel 3</h2>
+            </div>
+
+            <button class="play_icon"><img src="./images/play.png"></button>
+
+        </section>
+
+
+        <a class="return_category" href="../index.html">Regresar a categoria</a>
+
+    </section>
+
+
+  </main>
+
+  <section class="first_level" data-display="false">
+    
+    <div class="content">
+        <header class="spikes">
+            <h2>Nivel 1 - Perimetros</h2>
+            <button>Regresar al mapa</button>
+        </header>
+
+
+        <div class="info">
+
+            <div class="question_section">
+                <p><span>PREGUNTA:</span> En el mundo de Mario Bros, ¿cuál sería el área de la cabeza de un gumba cuya forma es triangular equilátera teniendo como dato que un lado mide 8 bloques?</p>
+
+                <img src="images/pregunta 1.png" alt="">
+            </div>
+
+            <div class="answer_section">
+                <label for="">Respuesta:</label>
+                <input placeholder="Escribe respuesta" type="text">
+                <button>Verificar</button>
+            </div>
+
+        </div>
+        
+
+    </div>
+
+  </section>
+
+  <section class="second_level" data-display="false">
+
+    <div class="content">
+        <header class="spikes">
+            <h2>Nivel 2 - Angulos</h2>
+            <button>Regresar al mapa</button>
+        </header>
+
+            <div class="info">
+
+                <div class="question_section">
+                    <p><span>PREGUNTA:</span> Si Mario está saltando en el mundo de Mario Bros, y su trayectoria forma un ángulo de 45 grados con respecto al suelo, ¿cuánto tiempo tardará en alcanzar la altura máxima de su salto? Suponiendo que la gravedad en el mundo de Mario Bros es de 9.8 m/s^2.</p>
+    
+                    <img src="images/pregunta 2.png" alt="">
+                </div>
+    
+                <div class="answer_section">
+                    <label for="">Respuesta:</label>
+                    <input placeholder="Escribe respuesta" type="text">
+                    <button>Verificar</button>
+                </div>
+    
+            </div>
+
+
+    </div>
+
+
+
+  </section>
+
+  <section class="third_level" data-display="false">
+
+    <div class="content">
+        <header class="spikes">
+            <h2>Nivel 3 - teoremas</h2>
+            <button>Regresar al mapa</button>
+        </header>
+
+        <div class="info">
+
+            <div class="question_section">
+                <p><span>PREGUNTA:</span> Si Mario está saltando en el mundo de Mario Bros, y su trayectoria sigue una parábola, ¿cuál es la altura máxima que alcanzará su salto si su velocidad inicial es de 20 metros por segundo y su ángulo de lanzamiento es de 30 grados? Suponiendo que la gravedad en el mundo de Mario Bros es de 9.8 m/s^2. Utiliza el teorema de la altura máxima de una parábola para resolver el problema.</p>
+
+                <img src="images/pregunta 3.png" alt="">
+            </div>
+
+            <div class="answer_section">
+                <label for="">Respuesta:</label>
+                <input placeholder="Escribe respuesta" type="text">
+                <button>Verificar</button>
+            </div>
+
+        </div>
+
+    </div>
+  </section>
+
+  
+</body>
+</html>
